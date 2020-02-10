@@ -16,6 +16,7 @@ public class GameBoardManager {
 
     public static Piece selectedPiece;
 
+    // Bad design
     public static void init() {
 
         matrixCollection[BOARD_MIN_UTILITY_ROW][0] = new Pawn(PieceColor.WHITE, BOARD_MIN_UTILITY_ROW, 0);
@@ -43,32 +44,38 @@ public class GameBoardManager {
         matrixCollection[BOARD_MAX_PRIMARY_ROW][4] = new Queen(PieceColor.BLACK   , BOARD_MAX_PRIMARY_ROW, 4);
     }
 
-    public static boolean isPieceAvailable(int selectRow, int selectCol) {
+    //public static boolean isPieceAvailable(int selectRow, int selectCol) {
+    public static boolean isPieceAvailable(PiecePosition externalPosition) {
 
-        Piece selectedPiece = matrixCollection[selectRow][selectCol];
+        //Piece selectedPiece = matrixCollection[selectRow][selectCol];
+        Piece selectedPiece = getBoardTile(externalPosition);
         return (selectedPiece != null);
     }
 
-    public static void selectPiece(int selectRow, int selectCol) {
-        selectedPiece = matrixCollection[selectRow][selectCol];
+    public static void pickPiece(PiecePosition externalPosition) {
+        selectedPiece = getBoardTile(externalPosition);
     }
 
-    public static boolean isMovePossible(int moveRow, int moveCol) {
-        return selectedPiece.isMoveValid(moveRow, moveCol);
+    public static boolean isMovePossible(PiecePosition externalPosition) {
+        return selectedPiece.isMoveValid(externalPosition);
     }
 
-    public static void move(int moveRow, int moveCol) {
+    //public static void move(int moveRow, int moveCol) {
+    public static void move(PiecePosition externalPosition) {
 
-        int currentRow              = selectedPiece.getRow();
-        int currentCol              = selectedPiece.getCol();
-        PiecePosition coordinates   = selectedPiece.getCurrentPosition();
+        // int currentRow              = selectedPiece.getRow();
+        // int currentCol              = selectedPiece.getCol();
+        PiecePosition currentPosition   = selectedPiece.getCurrentPosition();
 
         // selectedPiece.move(moveRow, moveCol);
-        selectedPiece.move(coordinates);
+        selectedPiece.move(externalPosition);
 
         // Remark use PiecePosition object - experiment with different methods
-        matrixCollection[moveRow][moveCol] = selectedPiece;
-        matrixCollection[currentRow][currentCol] = null;
+        // matrixCollection[moveRow][moveCol] = selectedPiece;
+        inputBoardTile(externalPosition, selectedPiece);
+        //matrixCollection[currentRow][currentCol] = null;
+        // inputBoardTile(currentPosition, null);
+        clearBoardTile(currentPosition);
     }
 
     public static void render() {
@@ -88,4 +95,18 @@ public class GameBoardManager {
             System.out.println();
         }
     }
+
+
+    private static Piece getBoardTile(PiecePosition externalPosition) {
+        return matrixCollection[externalPosition.getRow()][externalPosition.getCol()];
+    }
+
+    private static void inputBoardTile(PiecePosition externalPosition, Piece piece) {
+        matrixCollection[externalPosition.getRow()][externalPosition.getCol()] = piece;
+    }
+
+    private static void clearBoardTile(PiecePosition externalPosition) {
+        inputBoardTile(externalPosition, null);
+    }
+
 }
