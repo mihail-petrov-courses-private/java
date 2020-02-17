@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class ApplicationMain {
 
@@ -9,12 +10,8 @@ public class ApplicationMain {
         windowFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windowFrame.setSize(500, 500);
 
-        // anonimus class
-        //windowFrame.add(new JPanel() {
-        // body
-        //});
-
-        windowFrame.add(new ApplicationWindow());
+        // external class
+        windowFrame.add(new GameBoardPanel());
         windowFrame.setVisible(true);
     }
 }
