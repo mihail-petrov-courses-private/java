@@ -1,11 +1,33 @@
+import config.PieceColor;
 import managers.GameBoardManager;
 import meta.PiecePosition;
+import pieces.Bishop;
+import pieces.Piece;
 
+import java.awt.*;
 import java.util.Scanner;
 
 public class Application {
 
     public static void main(String[] args) {
+
+
+        // Lower to Higer
+        Piece p   = new Bishop(PieceColor.WHITE, 0, 0);
+        Object p2 = new Bishop(PieceColor.WHITE, 0, 0);
+
+        Bishop b = new Bishop(PieceColor.WHITE, 0, 0);
+
+
+        // Higher to Lower
+        Bishop b1 = (Bishop) new Object();
+
+
+
+
+
+
+
         System.out.println("Welcome to KASPAROV-TRON 101");
 
         Scanner scannerReference = new Scanner(System.in);

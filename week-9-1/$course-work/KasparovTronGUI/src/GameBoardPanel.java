@@ -95,9 +95,11 @@ public class GameBoardPanel extends JPanel {
             g.fillRect(x, y, SIDE, SIDE);
             return;
         }
-
         Color tileColor = isBlack ? Color.BLACK : Color.WHITE;
         g.setColor(tileColor);
         g.fillRect(x, y, SIDE, SIDE);
+        g.setColor(Color.RED);
+        g.drawString("R", x + 10, y + 10);
+
     }
 }

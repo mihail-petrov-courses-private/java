@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462eb621-30ec-4ef5-8eec-40549fc0e917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassInstantiationModels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameBoardStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapters/GameBoardMouseEventAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/GameBoardMouseEventClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/GameBoardMouseEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/GameBoardMouseEventHandlerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week-9-2/$course-work/KasparovTron/KasparovTron.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../week-9-2/$course-work/KasparovTronGUI/KasparovTronGUI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KasparovTronGUI/ApplicationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KasparovTronGUI/ApplicationMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KasparovTronGUI/ApplicationWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoardPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KasparovTronGUI/GameBoardPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KasparovTronGUI/GameBoardPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KasparovTronGUI/GameBoardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KasparovTronGUI/GameBoardPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameBoardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoardPanel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../week-10-1/$course-work/KasparovTronGUI" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,7 +77,11 @@
       <option name="presentableId" value="Default" />
       <updated>1581357596478</updated>
       <workItem from="1581357602391" duration="5969000" />
-      <workItem from="1581526968875" duration="8462000" />
+      <workItem from="1581526968875" duration="9163000" />
+      <workItem from="1581882457931" duration="1562000" />
+      <workItem from="1581958583223" duration="90000" />
+      <workItem from="1581958700411" duration="10000" />
+      <workItem from="1581958750619" duration="12000" />
     </task>
     <servers />
   </component>
@@ -99,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
