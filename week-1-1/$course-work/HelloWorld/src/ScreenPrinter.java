@@ -11,5 +11,7 @@ class ScreenPrinter {
         // wrong System.out.println('My name is Mihail Petrov');
         // wrong System.out.println('My name is Mihail Petrov");
         System.out.println("My name is Mihail Petrov");
+        System.out.println("Test version controll");
     }
 }
+
