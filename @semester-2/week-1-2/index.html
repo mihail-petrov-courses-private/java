@@ -1,6 +1,88 @@
 <html>
-    <head></head>
+    <head>
+
+        <style>
+
+            body {
+                background: #ff7978;
+            }
+
+            h1 {
+                font-size   : 40px;
+                font-family : Arial;
+            }
+
+            p {
+                color: #fff;
+            }
+
+            #panel-registration-baner {
+                color           : #fff;
+                background      : #5D54A3;
+                display         : inline-block;
+
+                /*  Specific rule */
+                padding-left    : 12px;
+                padding-right   : 12px;
+                padding-bottom  : 12px;
+                padding-top     : 12px;
+
+                /* general rule */
+                padding         : 12px;                
+            }
+
+            #panel-registration-form {
+                background  : #fff;
+                width       : 540px;
+                height      : 560px;
+            }
+
+            input {
+                display         : inline-block;
+                margin-top      : 20px;
+                margin-bottom   : 20px;
+                margin-left     : 30px;
+                /* margin-right: 214px; */
+                height          : 50px;
+                width           : 85%;
+                /* border          : solid #5D54A3 2px; */
+            }
+
+            .border-5d54a3 {
+                border          : solid #5D54A3 2px;
+            }
+
+            .bg-77e2b4 {
+                background: #77E2B4;
+            }
+
+            .input {
+                border      : solid #5D54A3 2px;
+                padding     : 5px;
+            }
+
+            .button {
+                border      : none;
+                background  : #77E2B4;
+                cursor      : pointer;
+                font-weight : bold;
+            }
+
+            .button:hover {
+                background  : #5D54A3;
+                color       : #fff;
+            }
+
+        </style>
+
+    </head>
     <body>
+
+        <!-- RGB    -->
+        <!-- #ff0000 -->
+        <!-- 255 0 0 -->
+        <!-- #5D54A3 -->
+
 
         <div id="panel-intro">
             <h1>
@@ -13,17 +95,18 @@
 
         <!-- Container -->
         <div id="panel-registration">
-            <div>
+
+            <div id="panel-registration-baner">
                 Try it free for 7 days the $20 per day
             </div>
 
             <div id="panel-registration-form">
                 <form>
-                    <input type="text"/>
-                    <input type="text"/>
-                    <input type="text"/>
-                    <input type="text"/>
-                    <input type="submit">
+                    <input type="text"   class="input" placeholder="Username"/>
+                    <input type="password"   class="input" placeholder="Password"/>
+                    <input type="email"   class="input" placeholder="E-mail"/>
+                    <input type="text"   class="input" placeholder="Repeat E-mail"/>
+                    <input type="submit" class="button">
                 </form>
 
                 <div>
