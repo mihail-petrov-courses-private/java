@@ -1,148 +1,131 @@
-CREATE DATABASE bank;
-
 USE bank;
 
-CREATE TABLE bank.users (
-	egn VARCHAR(10) PRIMARY KEY,
-	fname VARCHAR(256),
-    lname VARCHAR(256),
-    ename VARCHAR(256),
-    address VARCHAR(256),
-    mphone VARCHAR(256),
-    email  VARCHAR(256),
-    
-    -- 
-    title_id  INTEGER,
-    department_id INTEGER
-);
+-- drop table 
+DROP TABLE is_true
 
-INSERT INTO users(egn, fname, lname, ename, address, mphone, email, title_id, department_id) 
-VALUES('AB01', 'Mihail', 'Petrov', NULL, 'Plovdiv', '088505050', 'mail@mihail-petrov.me', NULL, NULL); 
+CREATE DATABASE sample_databe_for_drop
+DROP DATABASE sample_databe_for_drop
 
-INSERT INTO users(egn, fname, lname, ename, address, mphone, email, title_id, department_id) 
-VALUES('AB02', 'Anton', 'Jankov', NULL, 'Sofia', '088404040', 'mail@anton-jankov.me', 2, 2); 
-
+ALTER TABLE users DROP COLUMN id2
+ALTER TABLE users ADD is_active CHAR(1) DEFAULT 'Y'
+ALTER TABLE users DROP is_active
+ALTER TABLE users ADD is_active TINYINT DEFAULT(1)
 
 select * from users
-ALTER TABLE users ADD COLUMN id2 INTEGER
-ALTER TABLE users DROP COLUMN id
 
--- 
-CREATE TABLE new_users AS (SELECT * FROM users)
-CREATE TABLE schema_users AS (SELECT * FROM users WHERE 1 = 2)
+CREATE TABLE truncate_users AS (SELECT * FROM users)
 
-CREATE TABLE name_users AS (SELECT fname,lname, ename FROM users WHERE 1 = 2)
+DELETE FROM truncate_users WHERE egn = 'AB01'
 
--- 
-select * from new_users
-select * from schema_users
-select * from name_users
-ALTER TABLE schema_users DROP COLUMN id2
+ALTER TABLE truncate_users ADD PRIMARY KEY(egn)
+schema_users
+TRUNCATE TABLE truncate_users
 
-ALTER TABLE schema_users DROP department_id
+--
+ALTER TABLE truncate_users ADD PRIMARY KEY(egn)
+ALTER TABLE truncate_users  DROP PRIMARY KEY
+ALTER TABLE truncate_users ADD PRIMARY KEY(egn, email)
 
+DELETE FROM truncate_users 
+select * from truncate_users 
+INSERT INTO truncate_users(egn, fname, email)
+VALUES('A5', 'Modor', 'Email')
 
+-- DROP TABLE new_users, name_users
 
-CREATE TABLE job_titles (
-	id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    title VARCHAR(256)
-);
+select * from users
+ALTER TABLE users DROP manager_id 
+ALTER TABLE users ADD manager_id VARCHAR(256) NOT NULL
 
-INSERT INTO job_titles(title) 
-VALUES('IT operator');
-INSERT INTO job_titles(title) 
-VALUES('Credit ecspert');
-INSERT INTO job_titles(title) 
-VALUES('Director');
-
-select * from job_titles
-
-DELETE from job_titles where id = 3
-
-
-CREATE TABLE departments (
-	id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    title VARCHAR(256)
-);
-
-INSERT INTO departments(title)
-VALUES('IT');
-INSERT INTO departments(title)
-VALUES('Credits');
-INSERT INTO departments(title)
-VALUES('Administration');
-
-
-select * from users;
-
-UPDATE users
-	SET title_id = 1,
-		department_id = 1
-	WHERE egn = 'AB01';
+UPDATE 
+	users 
+SET 
+	manager_id = 'AB01' 
+WHERE 
+	egn = 'AB01'
     
--- users
--- job_titles
--- departments
+-- select all users and there manager
+SELECT 
+	a.fname user_fname, 
+    a.lname user_lname, 
+    a.fname manager_fname, 
+    a.lname manager_lname
+FROM 
+	users a
+WHERE 
+a.manager_id = (
+	SELECT b.egn 
+    FROM users b 
+    WHERE egn = a.manager_id
+)
 
-CREATE TABLE join_users AS 
-(
-SELECT  a.EgN, 
-		a.fname, 
-        a.lname, 
-        a.ename, 
-        a.address, 
-        a.mphone, 
-        a.email, 
-		b.title job_title, 
-        c.title  department_title
-FROM  users a,
-	  job_titles b,
-	  departments c
-WHERE a.title_id = b.id 	 AND
-	  a.department_id = c.id AND 
-      a.egn = 'AB01'
-);
-      
-      select * from join_users;
-      
-  CREATE TABLE is_true (
-	id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    is_true BOOLEAN
-  )
-  
-  select * from is_true
-  INSERT INTO is_true(is_true)VALUES(FALSE)
-  
-  'Y' / 'N'
-  
-  
-  
-CREATE TABLE account_items(
-	id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    title VARCHAR(256)
-);
+-- select all users and there manager
+SELECT 
+	a.fname user_fname, 
+    a.lname user_lname, 
+    (
+		-- SELECT b.fname, b.lname
+        SELECT CONCAT(b.fname, ' ',b.lname) 
+		FROM users b 
+		WHERE egn = a.manager_id
+	) manager_name
+FROM 
+	users a
 
-INSERT INTO account_items(title) VALUES('Printer A1');
-INSERT INTO account_items(title) VALUES('Scaner  A2');
-INSERT INTO account_items(title) VALUES('Laptop  B5');
+ALTER TABLE users ADD salary INTEGER
 
-CREATE TABLE user__account_item(
-	user_id INTEGER,
-    account_item_id INTEGER
-);
+select * from users
 
-INSERT INTO user__account_item(user_id, account_item_id) 
-VALUES(1,1);
+-- INSERT WITH SELECTION
+INSERT INTO users(egn, fname, lname, title_id, department_id, manager_id, salary) 
+VALUES (SELECT egn, fname, lname, title_id, department_id, manager_id, salary 
+		FROM users 
+        WHERE egn = 'AB01')
+        
+INSERT INTO users(egn, fname, lname, title_id, department_id, manager_id, salary) 
+VALUES('AB03', 'Kozeto', 'Nenchov', 1,1, 'AB01', 1000)
 
-INSERT INTO user__account_item(user_id, account_item_id) 
-VALUES(1,2);
 
-INSERT INTO user__account_item(user_id, account_item_id) 
-VALUES(1,3);
+CREATE TABLE user_copy AS (SELECT * FROM users)
 
-select * from account_items a,
-			  user__account_item b,
-              users c
-              WHERE c.fname = ''
-					b.user_id = 1 AND 
-					a.id = b.account_item_id
+-- NO NO 
+INSERT INTO users(egn, fname, lname, title_id, department_id, manager_id, salary) 
+AS (SELECT *
+		FROM user_copy 
+        WHERE egn = 'AB01')
+        
+		
+INSERT INTO users(egn, fname, lname, title_id, department_id, manager_id) 
+VALUES('AB06', (SELECT fname
+		FROM user_copy 
+        WHERE egn = 'AB01'), 'Test', 1,1, 'AB01')
+        select * from users
+
+
+-- spot the diference
+SELECT MAX(salary), a.* FROM users a
+
+/*
+SELECT a.* 
+FROM users a
+WHERE a.salary = MAX(a.salary)
+*/
+
+-- NOt posible 
+SELECT MAX(a.salary) max_salary
+FROM users a 
+WHERE a.salary = max_salary
+
+SELECT * 
+FROM users a
+WHERE a.salary = (
+	SELECT MAX(b.salary) 
+    FROm users b
+)
+
+SELECT * FROM users a
+SELECT SUM(fname) FROM users a
+
+SELECT * 
+from users 
+ORDER BY salary DESC
