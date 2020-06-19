@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: #dedede;
+    overflow: hidden;
+}
+
+#logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    padding-top: 18px;
+    padding-left: 5px;
+}
+
+#menu {
+    width: 400px;
+    float: right;
+}
+
+#content {
+    margin-top      : 25px;
+    margin-bottom   : 25px;
+}
+
+#footer {
+    background: #dedede;
+}
+
+ul > li {
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 12px;
+    text-transform: uppercase;
+
+}
+
+a {
+    text-decoration     :  none;
+    color               : #dc143c;
+}
+
+a:hover {
+    color: #8a2be2;
+}
