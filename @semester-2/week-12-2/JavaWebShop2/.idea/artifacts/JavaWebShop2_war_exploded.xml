@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWebShop2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWebShop2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaWebShop2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWebShop2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/@dev/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49/mysql-connector-java-5.1.49-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
