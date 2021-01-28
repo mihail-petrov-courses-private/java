@@ -1,26 +1,31 @@
-## Introduction
+## Въведение
+Здравейте малки котки, ако четете това съобщение значи сте част от курса по разработка на Java приложения, на учебен център НЕТ ИТ. Моля запознайте се с организационните правила които ще се ползват за управление на файловете и папките в които ще се съдържа кода, който разработваме в рамките на упражненията. 
+## График и организация на курса
+Курса се провежна по графика спуснат от учебния център всяка седмица в Петък и Неделя (с изключение на регламентираните в програмата почивки). Часовете в които започваме са съответно 19:00 до 21:00 часа. В рамките на занятията очаквайте писане, писане и писане на код, не търсете слайдовете няма да ги намерите 😎
+## Организация на материалите
+В папката **iteration-n** ще намерите две под папки **projects** и **weekdump** 
+- В папка **projects** ще се съдържа целия код, на проектите, по които работим в рамките на курса. 
+- В папка **weekdump** ще се съдържа кода който пишем но разделен по седмици. 
 
-Hi colleagues, within this project, you can find all the projects and exercises that have been developed and shown in the Java 2019 - 2020 course at the NetIT Learning Center.
+За организация на директориите и файловете ще се ползва следната нотация
+**@w** - {**week-number**} - {**course-activity-number**} където :
+- {**week-number**} това е номера на седмицата в която се намираме в момента
+- {**course-activity-number**} съответства на Вторник (1) или Четвъртък (2)
 
-## Organizing the material by class
-The courses are held every week (except for the breaks described in the program), with two classes on Mondays and Wednesdays from 7:00 pm to 9:30 pm. The materials are divided into weeks, each of the weeks beginning with an identifier **@week** - {**week-number**} - {**course-activity-number**} where :
-- {**week-number**} is the week numbers described in the syllabus
-- {**course-activity-number**} is the sequence of Activity *1* for Monday and *2* for Wednesday
+Допълнително за пригледнот всяка една от папките ще съдържа две под папки
+- **cw** - която ще съдържа информация за работата която сме правили, в час.
+- **hw** - задачка закачка която можете да разработите допълнително, в рамките на свободното ви време.
 
-**For Example:** 
-If you would like to see the exercises we did before the third week of Wednesday's curriculum, the identifier is **@week-3-2**. 
+**Пример:** 
+Ако искате да видите кода който писахме в рамките на трета седмица в Неделя търсите папка с идентификатор **@w-3-2**. 
 
-**Disclaimer**
-If certain classes undergo a restructuring during the course, the naming convention will be preserved for consistency and the extraordinary identifier will be explicitly described in this file.
+## Участие в занятията
+На всеки курсист, който иска да участва активно в работата, се препоръчва да създаде профил в GitHub и да качи всички упражнения, които са разработили под формата на проекти. Каченият код ще бъде прегледан от преподавателя и ще получите подходящи насоки и съвети как да боравите успешно с материала.
 
-## Organizing Material by Activity
-In each of the folders, you can find materials that will be easily divided into two categories.
-* Exercises in class. During the active exercises, a topic will be discussed and many examples and tasks will be solved. You will find the practical solutions in the **$course-work** folder
-* Self-study exercises. After the end of most of the exercises, self-study tasks will be given to improve your understanding of the concepts we have examined. You can find the homework assignments in the **$home-work** folder
-* Extra materials used during the course activities. You can find them in the **$extra-work** folder
+## Полезни линкове и материали
+За да участвате в този курс в е необходим ентусиазъм и подходящите инструменти 
+- [Java ](https://www.oracle.com/java/technologies/javase-downloads.html)  Java платформа и инструменти за разработка
+- [Eclipse](https://www.eclipse.org/)                среда за разработка на Java код
 
-## Organization of student contribution
-Everyone who wants to actively participate in the work is advised to create a GitHub profile and upload all the exercises they have developed in the form of projects. The uploaded code will be reviewed by the tutor and you will receive appropriate guidance and tips on how to successfully handle the material.
-
-## Contacts and comunication 
-If you have any extra questions the official E-mail for corespondation with me regarding the topics of this course is **netitjava@mihail-petrov.me**
+## Контакти и информация 
+Ако имате допълнителни въпроси, официалният имейл за кореспонденция с мен по темите на този курс е **netitjava@mihail-petrov.me**
