@@ -28,4 +28,6 @@
 - [Eclipse](https://www.eclipse.org/)                среда за разработка на Java код
 
 ## Контакти и информация 
-Ако имате допълнителни въпроси, официалният имейл за кореспонденция с мен по темите на този курс е **netitjava@mihail-petrov.me**
+Ако имате допълнителни въпроси, 
+- E-mail  **netitjava@mihail-petrov.me**
+- Discord чат **https://discord.gg/uRgqmXVP**
