@@ -30,4 +30,4 @@
 ## Контакти и информация 
 Ако имате допълнителни въпроси, 
 - E-mail  **netitjava@mihail-petrov.me**
-- Discord чат **https://discord.gg/uRgqmXVP**
+- Discord чат **https://discord.gg/rMMbtGqXEU**
