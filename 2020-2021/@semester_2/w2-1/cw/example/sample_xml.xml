@@ -1,0 +1,19 @@
+<document>
+    <items>
+        <item>
+            <id>6587459787</id>
+            <category type="main">колбас</category>
+            <category type="secondary">салам</category>
+            <title>Бургаски народен салам</title>
+            <price>5</price>
+            <price_ccy>BGN</price_ccy>
+        </item>
+        <item>
+            <id>7587459787</id>
+            <category>алкохол</category>
+            <title>Пещерска гроздова</title>
+            <price>10</price>
+            <price_ccy>BGN</price_ccy>
+        </item>
+    </items>
+</document>

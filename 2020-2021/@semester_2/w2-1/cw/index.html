@@ -1,0 +1,157 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        
+        <header id="main-header">
+            <div id="logo">
+                <img src="resources/logo.png"/>
+            </div>
+
+            <div id="navigation">
+                <ul>
+                    <li>Technologies</li>
+                    <li>References & Guides</li>
+                    <li>Feedback</li>
+                </ul>
+            </div>
+
+            <div id="form-section">
+
+                <form method="GET">
+                    <input type="text" name="username" placeholder="Say my name">
+                    <input type="checkbox">
+                    <input type="radio">
+                    <input type="email">
+                    <input type="number" max="10" min="5">
+                    <input type="date">
+                    <input type="submit">
+                    <textarea rows="10" cols="10"></textarea>
+                </form>
+
+            </div>
+        </header>
+
+
+        <div id="sidebar">
+
+            <div class="sidebar_section">
+
+                <h3>Related Topics</h3>
+                <!-- ul -- unorderd list    -->
+                <!-- li -- list item        -->
+                <ul>
+                    <li>Getting started with the Web</li>
+                    <li>Introduction to HTML</li>
+                    <li>HTML tables</li>
+                </ul>
+            </div>
+
+            <div class="sidebar_section">
+
+                <h3>Education Step by STep</h3>
+                <!-- ol -- orderd list      -->
+                <!-- li -- list item        -->
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Servlet</li>
+                </ol>
+            </div>        
+        </div>
+
+        <article class="blog_post">
+            <!-- Как да опишем този елемент ? - като заглавие на пост / на страница / на секция -->
+            <h1>Introduction to HTML</h1>
+
+            <!-- Как да опишем този елемент ? - това е параграф -->
+            <p>
+                At its heart, HTML is a fairly simple language made up of elements, which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?), structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page. This module will introduce the first two of these and introduce fundamental concepts and syntax you need to know to understand HTML.        
+            </p>
+
+            <!-- Как да групираме елементи ?  - използваме div елемента -->
+            <div id="first-idea" class="idea">
+                <h3>Looking to become a front-end web developer?</h3>
+                <p>
+                    We have put together a course that includes all the essential information you need to work towards your goal.
+                </p>
+
+                <p>
+                    <!-- External link -->
+                    <!-- <a href="https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer">Get started</a> -->
+
+                    <!-- Internal link -->
+                    <a href="hrefexample.html">
+                        Get started
+                    </a>
+                </p>
+            </div>
+            
+            
+            <h2>Prerequisites</h2>
+            <p>
+                Before starting this module, you don't need any previous HTML knowledge, but you should have at least basic familiarity with using computers and using the web passively (i.e., just looking at it and consuming content). You should have a basic work environment set up (as detailed in Installing basic software), and understand how to create and manage files (as detailed in Dealing with files). Both are parts of our Getting started with the web complete beginner's module.       
+            </p>
+            
+        </article>     
+
+        <div id="table_container">
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td colspan="3">
+                            <center>%</center>
+                        </td>
+                        <td colspan="3"><b>Comparisons</b></td>
+                    </tr>                
+                    <tr>
+                        <td><i>Group</i></td>
+                        <td>N</td>
+                        <td><u>positive</u></td>
+                        <td>neutral</td>
+                        <td>negative</td>
+                        <td>x^2</td>
+                        <td>df</td>
+                        <td>p</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Q1(a)</td>
+                        <td colspan="7">I prefere to have writen instructions for experiment</td>
+                    </tr>                
+                    <tr>
+                        <td>Univercity group</td>
+                        <td>150</td>
+                        <td>73</td>
+                        <td>7</td>
+                        <td>20</td>
+                        <td rowspan="2">0.9</td>
+                        <td rowspan="2">4</td>
+                        <td rowspan="2">ns</td>
+                    </tr>
+                    <tr>
+                        <td>School group</td>
+                        <td>150</td>
+                        <td>70</td>
+                        <td>8</td>
+                        <td>22</td>
+                    </tr>
+                    <tr></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer id="main-footer">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto ullam neque libero non deleniti quasi eos! Earum, saepe nulla libero aspernatur assumenda, rerum commodi deserunt quae ea voluptatibus molestiae quidem.
+            </p>
+        </footer>
+    </body>
+</html>

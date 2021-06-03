@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <style>
+
+            /* Видове селектори:
+                -> HTML element
+                -> # (id)
+                -> . (class)
+
+                SELECTOR SELECTOR   (всичко в първия SELECTOR)
+                SELECTOR > SELECTOR (само директните наследници на първия SELECTOR)
+            */
+
+            /* селекция на HTML елементш */
+            body {
+                background: red;
+            }
+
+            /* селекция на ID*/
+            #navigation {
+                background: green;
+            }
+            
+            /* Възможно е да имаме няколко селектора*/
+            /* селекция по роднинска линия*/
+            /* #navigation ul{
+                background: turquoise ;
+            } */
+
+            /* пряка селекция, и предимство при собственост (доказване) */
+            #navigation > ul{
+                background: turquoise;
+            }            
+
+            /* селектиране на елемент с помоща на клас */
+            .dynamic-navihation {
+                background: yellow;
+            }
+
+            div {
+                background: violet;
+            }            
+
+            #extra-navigation {
+                background: slateblue;
+            }
+            
+
+        </style>
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="navigation">
+                <ul>
+                    <li>начало</li>
+                    <li>нашите услуги</li>
+                </ul>
+
+                <div class="dynamic-navihation" id="extra-navigation">
+                    <ul>
+                        <li>бонус меньо</li>
+                        <li>начало 2</li>
+                        <li>нашите услуги 2</li>
+                    </ul>                
+                </div>
+            </div>
+            <div id="company-header">
+                <h1>Академия за малки котки</h1>
+                <h2>Ца моментите, в които сладостта и котешкия поглед не помагат</h2>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="logo">
+                <img src="resources/img/logo.png">
+            </div>
+
+            <div id="main">
+
+                <div class="article">
+                    <header>
+                        <h3>Как се става малка котка ?</h3>
+                    </header>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil id consequuntur unde nobis illo! Quam, atque iure a perspiciatis, dolor nihil accusamus eos doloribus blanditiis fugiat et dolorum, quasi vero.</p>
+                </div>
+
+                <div class="article">
+                    <header>
+                        <h3>Колко е важно да бъдеш сериозен ?</h3>
+                    </header>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil id consequuntur unde nobis illo! Quam, atque iure a perspiciatis, dolor nihil accusamus eos doloribus blanditiis fugiat et dolorum, quasi vero.</p>
+
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                        <li>Item 5</li>
+                    </ul>
+                </div>                
+            </div>
+        </div>
+
+
+        <div id="footer">
+
+            <div id="social-navigation">
+                <ul>
+                    <li><img src="resources/img/facebook.png" alt=""></li>
+                    <li><img src="resources/img/twitter.png" alt=""></li>
+                    <li><img src="resources/img/instagram.png" alt=""></li>
+                    <li><img src="resources/img/dribbble.png" alt=""></li>
+                    <li><img src="resources/img/mail.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div id="side-navigation">
+                <ul>
+                    <li>FAQ</li>
+                    <li>Terms of Use</li>
+                    <li>Privacy</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div id="copyright">
+                Copyright. All rigfhts are reserved by me.
+            </div>
+        </div>
+    </body>
+</html>
