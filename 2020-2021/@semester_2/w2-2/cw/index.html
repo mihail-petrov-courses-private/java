@@ -2,49 +2,26 @@
     <head>
         <style>
 
-            /* Видове селектори:
-                -> HTML element
-                -> # (id)
-                -> . (class)
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
 
-                SELECTOR SELECTOR   (всичко в първия SELECTOR)
-                SELECTOR > SELECTOR (само директните наследници на първия SELECTOR)
-            */
-
-            /* селекция на HTML елементш */
             body {
-                background: red;
+                background: #f2f2f2;
             }
 
-            /* селекция на ID*/
-            #navigation {
-                background: green;
-            }
-            
-            /* Възможно е да имаме няколко селектора*/
-            /* селекция по роднинска линия*/
-            /* #navigation ul{
-                background: turquoise ;
-            } */
-
-            /* пряка селекция, и предимство при собственост (доказване) */
             #navigation > ul{
-                background: turquoise;
-            }            
-
-            /* селектиране на елемент с помоща на клас */
-            .dynamic-navihation {
-                background: yellow;
-            }
-
-            div {
-                background: violet;
-            }            
-
-            #extra-navigation {
-                background: slateblue;
-            }
+                background: #ff0000;
+            }       
             
+            #content {
+                background: #ffffff;
+            }
+
+            #footer {
+                background: #ffffff;
+            }
 
         </style>
     </head>
