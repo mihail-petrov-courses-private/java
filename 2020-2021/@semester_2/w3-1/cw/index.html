@@ -1,100 +1,33 @@
 <html>
     <head>
-        <style>
-
-            * {
-                margin: 0px;
-                padding: 0px;
-            }
-
-            body {
-                background: #f2f2f2;
-            }
-
-            #navigation {
-                background-color: #ffffff;
-            }
-
-            #navigation > ul li{
-                display: inline-block;
-
-
-                /* Short rule notation*/
-                /* border: solid #ff0000 2px; */ 
-
-                border: 2px;
-                border-color: #ff0000; 
-                border-style: solid;
-
-
-                width: 250px;
-                height: 50px;
-
-                /* промяна на размера на текста*/
-                font-size: 38px;
-
-                /* Горен/Долен/Ляв/Десен - еднаквни*/
-                padding: 25px;
-
-                /* Горен/Долен - еднаквни Ляв/Десен - еднакви*/
-                padding: 25px 25px;
-
-                /* Горен/Долен/Ляв/Десен - различни */
-                padding: 25px 25px 25px 25px;
-                padding-left: 25px;
-                padding-right: 25px;
-                padding-top: 25px;
-                padding-bottom: 25px;
-                margin: 25px;
-            }       
-            
-            #content {
-                background: #ffffff;
-            }
-
-            #footer {
-                background: #ffffff;
-            }
-
-        </style>
+        <link rel="stylesheet" href="resources/style/util.css"/>
+        <link rel="stylesheet" href="resources/style/style.css"/>
     </head>
 
     <body>
         <div id="header">
             <div id="navigation">
 
-                <ul>
-                    <li>начало</li>
-                    <li>нашите услуги</li>
+                <ul class="wrapper">
+                    <li>Начало</li>
+                    <li>Нашите услуги</li>
                 </ul>
 
-<!-- 
-                <ul>
-                    <li>бонус меньо</li>
-                    <li>начало 2</li>
-                    <li>нашите услуги 2</li>
-                </ul>                 -->
-
-                <!-- <div class="dynamic-navihation" id="extra-navigation">
-                    <ul>
-                        <li>бонус меньо</li>
-                        <li>начало 2</li>
-                        <li>нашите услуги 2</li>
-                    </ul>                
-                </div> -->
             </div>
             <div id="company-header">
                 <h1>Академия за малки котки</h1>
-                <h2>Ца моментите, в които сладостта и котешкия поглед не помагат</h2>
+                <h2>За моментите, в които сладостта и котешкия поглед не помагат</h2>
             </div>
         </div>
 
-        <div id="content">
+        <div id="content" class="wrapper">
             <div id="logo">
-                <img src="resources/img/logo.png">
+                <img  
+                    class="wrapper-content" 
+                    src="resources/img/logo.png">
             </div>
 
-            <div id="main">
+            <div id="main" class="wrapper-content">
 
                 <div class="article">
                     <header>
@@ -123,27 +56,30 @@
 
         <div id="footer">
 
-            <div id="social-navigation">
-                <ul>
-                    <li><img src="resources/img/facebook.png" alt=""></li>
-                    <li><img src="resources/img/twitter.png" alt=""></li>
-                    <li><img src="resources/img/instagram.png" alt=""></li>
-                    <li><img src="resources/img/dribbble.png" alt=""></li>
-                    <li><img src="resources/img/mail.png" alt=""></li>
-                </ul>
-            </div>
+            <div id="inner--footer">
 
-            <div id="side-navigation">
-                <ul>
-                    <li>FAQ</li>
-                    <li>Terms of Use</li>
-                    <li>Privacy</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
+                <div id="social-navigation">
+                    <ul>
+                        <li><img src="resources/img/facebook.png" alt=""></li>
+                        <li><img src="resources/img/twitter.png" alt=""></li>
+                        <li><img src="resources/img/instagram.png" alt=""></li>
+                        <li><img src="resources/img/dribbble.png" alt=""></li>
+                        <li><img src="resources/img/mail.png" alt=""></li>
+                    </ul>
+                </div>
 
-            <div id="copyright">
-                Copyright. All rigfhts are reserved by me.
+                <div id="side-navigation"  class="mt20">
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Terms of Use</li>
+                        <li>Privacy</li>
+                        <li class="last-list-item">Contact</li>
+                    </ul>
+                </div>
+
+                <div id="copyright" class="mt20">
+                    Copyright. All rigfhts are reserved by me.
+                </div>
             </div>
         </div>
     </body>
