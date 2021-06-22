@@ -1,0 +1,14 @@
+#form-container {
+	width	: 350px;
+	padding: 25px;
+	margin	: auto;
+	border	: solid #dedede 1px;
+}
+
+
+
+
+.input {
+	width: 100%;
+	margin-bottom: 15px;
+}
