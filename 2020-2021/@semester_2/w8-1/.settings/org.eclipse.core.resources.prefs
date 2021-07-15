@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/netit/database/Database.java=UTF-8
+encoding//src/main/java/com/netit/logic/translate/Translate.java=UTF-8
+encoding//src/main/java/com/netit/servlets/LoginServlet.java=UTF-8
+encoding//src/main/java/com/netit/servlets/SqlServlet.java=UTF-8
