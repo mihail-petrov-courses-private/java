@@ -1,0 +1,33 @@
+.pt-36  { padding-top	: 36px 		}
+.pr-36  { padding-right	: 36px 		}
+.pb-36  { padding-bottom: 36px 		}
+.pl-36  { padding-left	: 36px 		}
+.plr-36 { padding		: 0 36px 	}
+.ptb-36 { padding		: 36px 0 	}
+
+.pt-24  { padding-top	: 24px 		}
+.pr-24  { padding-right	: 24px 		}
+.pb-24  { padding-bottom: 24px 		}
+.pl-24  { padding-left	: 24px 		}
+.plr-24 { padding		: 0 24px 	}
+.ptb-24 { padding		: 24px 0 	}
+
+.pt-16  { padding-top	: 16px 		}
+.pr-16  { padding-right	: 16px 		}
+.pb-16  { padding-bottom: 16px 		}
+.pl-16  { padding-left	: 16px 		}
+.plr-16 { padding		: 0 16px 	}
+.ptb-16 { padding		: 16px 0 	}
+
+.pt-8  { padding-top	: 8px 		}
+.pr-8  { padding-right	: 8px 		}
+.pb-8  { padding-bottom : 8px 		}
+.pl-8  { padding-left	: 8px 		}
+.plr-8 { padding		: 0 8px 	}
+.ptb-8 { padding		: 8px 0 	}
+
+
+.center { text-align	: center	}
+
+.b-0052cc { background: #0052cc;}
+.b-5aac44 { background: #5aac44;}
