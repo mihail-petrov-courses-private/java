@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="navigation--sidebar" th:fragment="navigation-sidebar(collection)">
+		
+		<div>
+			<ul>
+				<li>Boards</li>
+			</ul>
+		</div>
+		
+		<div>
+			<div class="navigation--workspace">
+				<span>Workspaces</span>
+				<a th:href="@{/create-workspace}">+</a>
+			</div>
+			
+			<div th:each="workspace : ${collection}">
+				 
+				<div class="navigation--workspace-panel">
+					<div
+						 class="navigation--workspace-panel-title" 
+						th:text="${workspace.title}"></div>
+					<ul>
+						<li class="navigation--workspace-item">Boards</li>
+						<li class="navigation--workspace-item">Members</li>
+						<li class="navigation--workspace-item">Settings</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

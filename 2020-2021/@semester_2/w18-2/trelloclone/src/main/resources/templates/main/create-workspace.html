@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<link th:href="@{/style/global/global.css}" 	rel="stylesheet"/>
+	<link th:href="@{/style/global/util.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/global/form.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/page/dashboard.css}" 	rel="stylesheet"/>
+</head>
+<body>
+	
+	<!--  Fragment : navigation -->
+	<!--  ===================== -->
+	<div 
+		th:replace="fragments/navigation-main :: navigation-main">
+	</div>
+	
+	<div id="app-wrapper">
+
+	<!--  Fragment : sidebar 	-->
+	<!--  ===================== -->
+	
+		<div 
+		 	th:replace="fragments/navigation-sidebar :: navigation-sidebar(${collection})">
+		</div>
+			
+	<!--  Fragment : main content 	-->
+	<!--  ===================== 	-->			
+			
+		<div id="content--main">
+		
+			<form
+				method="post"
+				th:action="@{/create-workspace}"
+				th:object="${workspace}">
+				
+				<label class="label">Title</label>
+				<input 
+					class="input"
+					type="text" 
+					placeholder="Workspace title"
+					th:field="*{title}">
+				
+				<label class="label">Workspace type</label>
+				
+				<select
+					class="input-select" 
+					th:field="*{type}">
+					 
+					 <option th:each="enumObject : ${T(com.trelloclone.trelloclone.enums.WorkspaceType).values()}"
+					 	th:value="${enumObject}" th:text="${enumObject}">
+					 </option>
+				</select>
+				
+				<label  class="label">Description</label>
+				<textarea 
+					class="input-textarea" 
+					th:field="*{description}"></textarea>
+				
+				<button 
+					class="input input-button input-button--blue"
+					type="submit">Create Workspace</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

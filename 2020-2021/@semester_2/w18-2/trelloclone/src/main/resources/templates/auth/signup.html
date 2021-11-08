@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<link th:href="@{/style/global/global.css}" 	rel="stylesheet"/>
+	<link th:href="@{/style/global/util.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/global/form.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/page/auth.css}" 		rel="stylesheet"/>
+</head>
+<body>
+	
+	<div id="wrapper">
+	
+		<!-- WEB APP Logo  -->
+		<div class="center ptb-36">
+			<img id="logo" src="https://aid-frontend.prod.atl-paas.net/atlassian-id/front-end/5.0.273/static/media/trello-logo-blue.f7627b3a.svg">
+		</div>
+	
+		<!-- SIGN UP : Component -->
+		<div id="auth-panel">
+		
+			<div class="center pb-24">
+				<span class="header">Sign up for your account</span>
+			</div>
+		
+			<div>
+				<form
+					method="post"
+					th:action="@{/signup}"
+					th:object="${user}">
+			
+					<input 
+						class="input"  
+						type="text" 
+						placeholder="E-mail" 
+						th:field="*{email}" 
+						th:required="required">
+						
+					<input 
+						class="input"  
+						type="text" 
+						placeholder="Full name" 
+						th:field="*{fullname}"  
+						th:required="required">
+						
+					<input 
+						class="input"  
+						type="text" 
+						placeholder="username" 
+						th:field="*{username}"  
+						th:required="required">
+						
+					<input 
+						class="input"  
+						type="password" 
+						placeholder="password" 
+						th:field="*{password}"  
+						th:required="required">
+					
+					<button 
+						class="input input-button input-button--blue" 
+						type="submit">Sign Up</button>
+				</form>
+			</div>
+		</div>
+	
+	
+	</div>
+	
+</body>
+</html>
