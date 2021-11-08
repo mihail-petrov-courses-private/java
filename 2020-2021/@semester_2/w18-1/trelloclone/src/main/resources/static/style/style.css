@@ -1,0 +1,64 @@
+* {
+	margin			: 0;
+	padding			: 0;
+	box-sizing		: border-box;
+	font-family		: "Segoe UI";
+	text-decoration	: none;
+}
+
+body {
+	background: #fafafa;
+}
+
+#wrapper {
+	margin		: auto;
+	width		: 400px;
+}
+
+#logo {
+	width: 178px;
+}
+
+#auth-panel {
+	margin		: auto;
+	width		: 400px;
+	padding		: 30px 36px;
+	background	: #fff;
+	box-shadow	: rgb(0 0 0 / 10%) 0px 0px 10px 0px;
+}
+
+.header {
+	font-size	: 16px;
+    font-family	: "Segoe UI";
+    color		: rgb(94, 108, 132);
+    font-weight	: bold; 
+}
+
+.input {
+	display			: block;
+	height			: 35px;
+	width			: 100%;	
+	margin-bottom	: 12px;
+	padding			: 0 0 0 5px;
+	border			: solid #dedede 2px;
+    border-radius	: 3px;
+}
+
+.input-button {
+	background		: #dedede;
+	color			: #fff;
+	text-align		: center;
+	padding			: 5px;
+    font-weight		: bold;
+    border			: none;
+}
+
+.input-button--blue {
+	background		: #0052cc;
+	color			: #fff;
+}
+
+.input-button--green {
+	background		: #5aac44;
+	color			: #fff;
+}

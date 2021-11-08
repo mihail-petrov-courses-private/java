@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<form
+		method="post"
+		th:action="@{/htmlsaveworkspace}"
+		th:object="${workspace}">
+		
+		<label>Title</label>
+		<input 
+			type="text" 
+			placeholder="Workspace title"
+			th:field="*{title}">
+		
+		<select th:field="*{type}">
+			<!--  
+			<option value="0">SMALL_BUSINES</option>
+			<option value="1">OPERATION</option>
+			<option value="2">MARKETING</option>
+			 -->
+			 
+			 <option th:each="enumObject : ${T(com.trelloclone.trelloclone.enums.WorkspaceType).values()}"
+			 	th:value="${enumObject}" th:text="${enumObject}">
+			 </option>
+			 
+		</select>
+		
+		<label>Description</label>
+		<textarea th:field="*{description}"></textarea>
+		
+		<button type="submit">Create Workspace</button>
+		
+	</form>
+
+</body>
+</html>
