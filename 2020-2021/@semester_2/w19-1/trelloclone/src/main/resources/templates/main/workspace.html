@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div th:text="${title}"></div>
+	<hr/>
+	<ul>
+		<li th:each="workspace : ${collection}"
+			th:text="${workspace.title}">
+		</li>
+	</ul>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<link th:href="@{/style/global/global.css}" 	rel="stylesheet"/>
+	<link th:href="@{/style/global/util.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/global/form.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/page/dashboard.css}" 	rel="stylesheet"/>
+</head>
+<body>
+	
+	<div 
+		th:replace="fragments/navigation-main :: navigation-main">
+	</div>
+	
+	<div id="app-wrapper">
+		 
+		 <div 
+		 	th:replace="fragments/navigation-sidebar :: navigation-sidebar(${collection})">
+		 </div>
+		 
+		<div id="content--main">
+		
+		</div>
+	</div>
+		
+</body>
+</html>

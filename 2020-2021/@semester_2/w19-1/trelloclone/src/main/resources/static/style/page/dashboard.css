@@ -1,0 +1,60 @@
+#navigation--main {
+	background	: #026aa7;
+	height		: 40px;
+	padding		: 4px;
+}
+
+#app-wrapper {
+	display		: flex;
+	margin		: auto;
+	width		: 1100px;
+	padding-top	: 36px;
+}
+
+#navigation--sidebar {
+	width		: 246px;
+}
+
+#content--main {
+	width: 100%;
+	padding-left: 10px
+}
+
+.navigation--workspace {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation--workspace-panel {
+	
+}
+
+.navigation--workspace-panel-title {
+	font-weight	: bold;
+	font-size	: 16px;
+}
+
+.navigation--workspace-item {
+	padding	: 15px 30px;
+}
+
+.navigation--workspace-item:hover {
+	background: rgba(9, 30, 66, 0.08);
+}
+
+.board {
+	width: 190px;
+    height: 100px;
+    background: #dedede;
+    border: solid 1px #9ba5ad;
+    border-radius: 3px;
+    
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.board-content {
+	padding		: 8px;
+	font-weight	: bold;
+}
+

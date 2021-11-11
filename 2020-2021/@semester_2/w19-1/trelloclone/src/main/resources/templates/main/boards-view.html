@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<link th:href="@{/style/global/global.css}" 	rel="stylesheet"/>
+	<link th:href="@{/style/global/util.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/global/form.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/page/dashboard.css}" 	rel="stylesheet"/>
+</head>
+<body>
+	
+	<!--  Fragment : navigation -->
+	<!--  ===================== -->
+	<div 
+		th:replace="fragments/navigation-main :: navigation-main">
+	</div>
+	
+	<div id="app-wrapper">
+
+	<!--  Fragment : sidebar 	-->
+	<!--  ===================== -->
+	
+		<div 
+		 	th:replace="fragments/navigation-sidebar :: navigation-sidebar(${workspaceCollection})">
+		</div>
+			
+	<!--  Fragment : main content 	-->
+	<!--  ===================== 	-->			
+		<div id="content--main">
+			
+			<div
+				class="board" 
+				th:each="board : ${boardCollection}">
+				<div class="board-content">
+					<span th:text="${board.title}"></span>
+				</div>
+			</div>
+			
+			
+			<div
+				class="board">
+				<div class="board-content">
+					<a th:href="@{|/workspace/${workspaceId}/boards/create|}">
+						<span>Create new board</span>
+					</a>
+				</div>
+			</div>
+						
+		</div>
+	</div>
+</body>
+</html>
