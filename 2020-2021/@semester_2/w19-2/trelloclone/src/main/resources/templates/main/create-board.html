@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<link th:href="@{/style/global/global.css}" 	rel="stylesheet"/>
+	<link th:href="@{/style/global/util.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/global/form.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/page/dashboard.css}" 	rel="stylesheet"/>
+</head>
+<body>
+	
+	<!--  Fragment : navigation -->
+	<!--  ===================== -->
+	<div 
+		th:replace="fragments/navigation-main :: navigation-main">
+	</div>
+	
+	<div id="app-wrapper">
+
+	<!--  Fragment : sidebar 	-->
+	<!--  ===================== -->
+	
+		<div 
+		 	th:replace="fragments/navigation-sidebar :: navigation-sidebar(${workspaceCollection})">
+		</div>
+			
+	<!--  Fragment : main content 	-->
+	<!--  ===================== 	-->			
+			
+		<div id="content--main">
+		
+			<form
+				method="post"
+				th:action="@{|/workspace/${workspaceId}/boards/create|}"
+				th:object="${boardModel}">
+				
+				<label class="label">Title</label>
+				<input 
+					class="input"
+					type="text" 
+					placeholder="Board title"
+					th:field="*{title}">
+				
+				<label class="label">Board visibility</label>
+				<select
+					class="input-select" 
+					th:field="*{isVisble}">
+					 
+					 <option th:each="enumObject : ${T(com.trelloclone.trelloclone.enums.BoardVisibility).values()}"
+					 	th:value="${enumObject}" th:text="${enumObject}">
+					 </option>
+				</select>
+				
+				<label class="label">Board theme</label>
+				<select
+					class="input-select" 
+					th:field="*{theme}">
+					 
+					 <option th:each="theme : ${themeCollection}"
+					 	th:value="${theme.id}" th:text="${theme.title}">
+					 </option>
+				</select>
+				
+				<button 
+					class="input input-button input-button--blue"
+					type="submit">Create Board</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

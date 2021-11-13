@@ -1,0 +1,50 @@
+
+.input {
+	display			: block;
+	height			: 35px;
+	width			: 100%;	
+	margin-bottom	: 12px;
+	padding			: 0 0 0 5px;
+	border			: solid #dedede 2px;
+    border-radius	: 3px;
+}
+
+.input-button {
+	background		: #dedede;
+	color			: #fff;
+	text-align		: center;
+	padding			: 5px;
+    font-weight		: bold;
+    border			: none;
+}
+
+.input-button--blue {
+	background		: #0052cc;
+	color			: #fff;
+}
+
+.input-button--green {
+	background		: #5aac44;
+	color			: #fff;
+}
+
+.input-select {
+	display: block;
+    width: 100%;
+    border: solid #dedede 2px;
+    padding: 5px 0;
+}
+
+.input-textarea {
+	display		: block;
+    width		: 100%;
+    min-height	: 100px;
+    border		: solid #dedede 2px;
+}
+
+.label {
+	display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}

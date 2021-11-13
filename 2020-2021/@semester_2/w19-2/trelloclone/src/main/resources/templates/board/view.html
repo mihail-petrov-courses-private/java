@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+	<link th:href="@{/style/global/global.css}" 	rel="stylesheet"/>
+	<link th:href="@{/style/global/util.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/global/form.css}" 		rel="stylesheet"/>
+	<link th:href="@{/style/page/board.css}" 		rel="stylesheet"/>
+</head>
+<body class="board-background">
+	<div class="layout--card">
+		<div 
+			th:each="boardList : ${boardListCollection}"
+			class="board">
+
+			<div class="board-content">
+			
+				<div th:text="${boardList.title}"></div>
+				
+				<div 
+					class="card"
+					th:each="card : ${boardList.getCards()}">
+					<div th:text="${card.title}"></div>
+				</div>
+				
+				<div class="board--add-card">
+					<a th:href="@{|/boards/${boardId}?action=add-card&id=${boardList.id}|}">Add card</a>
+				</div>
+				
+				<div 
+					th:if="${(param.action != null) and (param.action[0] == 'add-card') and (param.id != null) and (param.id[0] == boardList.id.toString())}">
+					<form 
+						th:method="post" 
+						th:action="@{|/boards/${boardId}/card/${boardList.id}/create|}" 
+						th:object="${card}">
+						<input type="text" th:field="*{title}">
+						<button 
+							class="input input-button input-button--blue"
+							type="submit">Add card</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div 
+			th:if="${(param.action == null) or ((param.action != null) and (param.action[0] != 'add-list'))}"
+			class="board">
+			<a th:href="@{|/boards/${boardId}?action=add-list|}">Add list</a>
+		</div>
+		
+		<div 
+			th:if="${(param.action != null) and (param.action[0] == 'add-list')}"
+			class="board">
+
+			<form 
+				th:method="post" 
+				th:action="@{|/boards/${boardId}|}" 
+				th:object="${boardList}">
+				<input type="text" th:field="*{title}">
+				<button 
+					class="input input-button input-button--blue"
+					type="submit">Add list</button>
+			</form>
+		</div>		
+	</div>
+	
+</body>
+</html>
