@@ -34,7 +34,7 @@ System.out.print(message);
 ### Оператори за сравнение
 Операторите за сравнение, винаги проверяват отношението между две стойности или променливи. Различаваме 4 оператора (и два комбинирани):
 - ==
-- >  / >=
+- \>  / >=
 - <  / <=
 - !=
 
@@ -75,22 +75,22 @@ String questionType    = (hintCount != 3        ) ? "Труден въпрос" 
 Можем да влагаме, изразите един в друг, като така постигаме по сложна конструкция.
 
 ```java
-        boolean isMonday    = dayOfTheWeek == "Monday";
-        boolean isThuesday  = dayOfTheWeek == "Thuesday";
-        boolean isWednesday = dayOfTheWeek == "Wednesday";
-        boolean isTursday   = dayOfTheWeek == "Tursday";
-        boolean isFriday    = dayOfTheWeek == "Friday";
-        String dayOfTheWeekFirstLetter =    isMonday
-                                            ? "M"
-                                            : isThuesday
-                                                ? "Th"
-                                                : isWednesday
-                                                    ? "W"
-                                                    : isTursday
-                                                        ? "Tu"
-                                                        : isFriday
-                                                            ? "F"
-                                                            : "X";
+boolean isMonday    = dayOfTheWeek == "Monday";
+boolean isThuesday  = dayOfTheWeek == "Thuesday";
+boolean isWednesday = dayOfTheWeek == "Wednesday";
+boolean isTursday   = dayOfTheWeek == "Tursday";
+boolean isFriday    = dayOfTheWeek == "Friday";
+String dayOfTheWeekFirstLetter =    isMonday
+                                    ? "M"
+                                    : isThuesday
+                                        ? "Th"
+                                        : isWednesday
+                                            ? "W"
+                                            : isTursday
+                                                ? "Tu"
+                                                : isFriday
+                                                    ? "F"
+                                                    : "X";
 ```                                                            
 
 ### Въвеждане на данни от конзолата
