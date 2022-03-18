@@ -29,9 +29,9 @@
 - [GIT](https://git-scm.com/download/win)  Система за управление на версиите - GIT
 - [Github for windows](https://desktop.github.com/) Система за менежиране на Git в контекста на GitHub
 
-## Контакти и информация 
+<!-- ## Контакти и информация 
 Ако имате допълнителни въпроси, 
-- Discord чат **https://discord.gg/mVRuxJAEnu**
+- Discord чат **https://discord.gg/mVRuxJAEnu** -->
 
 ## Проведени занятия по срещи и дати
 
