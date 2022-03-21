@@ -56,6 +56,12 @@
   - Тернарен оператор и избор на множество възможности
   - Въвеждане на данни от конзолата
 
+- [Седмица 3 - 1](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-1) **[22.03.2022]**
+  - **TODO**
+
+- [Седмица 3 - 2](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-2)  **[24.03.2022]**
+  - **TODO**
+
 ### > Семестър 1 - част 2 [Обектно ориентирано програмиране]
 - Предстой ...
 
