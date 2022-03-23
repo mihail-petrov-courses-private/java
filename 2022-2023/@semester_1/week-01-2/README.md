@@ -10,4 +10,4 @@
 - [видео](https://drive.google.com/file/d/1xg0215OxhnbvIO8UBnDZUxPGPj_C-ufC/view?usp=sharing)
 
 
-<iframe allowfullscreen="allowfullscreen" src="[your_page_url/preview](https://drive.google.com/file/d/1xg0215OxhnbvIO8UBnDZUxPGPj_C-ufC/view?usp=sharing)"></iframe>
+https://drive.google.com/file/d/1xg0215OxhnbvIO8UBnDZUxPGPj_C-ufC/view?usp=sharing
