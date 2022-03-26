@@ -13,7 +13,7 @@
 
 ## $други ресурси
 - [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-2/source)
-- [видео]()
+- [видео](https://drive.google.com/file/d/1tOx8roijWXwGnLZROObMP1ieXaa7JcRO/view?usp=sharing)
 
 ### Още аритметични оператори
 
