@@ -71,7 +71,10 @@
   - сравнение между тернарен оператор **?:** и **if** / **else**
 
 - [Седмица 4 - 1](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-1)  **[29.03.2022]**
-  - **TODO**
+  - вложени **if** / **else** конструкции
+  - **else if** конструкции
+  - живот / видимост на променлива в рамките на IF конструкция
+  - работа с **.equals()** при сравнение на низове
 
 - [Седмица 4 - 2](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-2)  **[29.03.2022]**
   - **TODO**
