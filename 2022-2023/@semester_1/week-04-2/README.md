@@ -7,8 +7,8 @@
 - [Самостоятелна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-2/hw)
 
 ## $други ресурси
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-2/source)
 - [видео](https://drive.google.com/file/d/1hRzT65_uEH8las9_sa5_21nyp8PHQ8lM/view?usp=sharing)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-2/source)
 
 ## функционалност за генериране на случайни числа
 

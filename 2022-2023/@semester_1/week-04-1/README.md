@@ -10,8 +10,8 @@
 - [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-1/cw)
 
 ## $други ресурси
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-2/source)
 - [видео](https://drive.google.com/file/d/1aZvfVbAJPW72e7FA_VIvXgm7TYfYp_S-/view?usp=sharing)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-2/source)
 
 # Комбинирани if / else / else if конструкции
 

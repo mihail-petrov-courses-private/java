@@ -12,8 +12,8 @@
 - [Самостоятелна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-1/hw)
 
 ## $други ресурси
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-1/source)
 - [видео](https://drive.google.com/file/d/1n1_e-wRgGYkJiTWs3Wa5nhzuVEVwBv3V/view?usp=sharing)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-1/source)
 
 ### Типът данни **char**
 
