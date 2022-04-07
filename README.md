@@ -85,7 +85,8 @@
   - първи стъпки в методите
   - глобални променливи
 
-<!-- - [Седмица 5 - 2](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-05-2)  **[07.04.2022]** -->
+- [Седмица 5 - 2](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-05-2)  **[07.04.2022]**
+  - упражнение
 
 
 ### > Семестър 1 - част 2 [Обектно ориентирано програмиране]
