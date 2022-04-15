@@ -10,7 +10,7 @@
 
 
 ## $други ресурси
-- [видео](https://drive.google.com/file/d/1UuGg6Dhfc9coCoi8uUpjMMmBFcBcrCZi/view?usp=sharing)
+- [видео](https://drive.google.com/file/d/1aaZdCd3Uk_1wlH0mIpcYT9fock4Wn_mt/view?usp=sharing)
 - [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-06-2/source)
 
 
