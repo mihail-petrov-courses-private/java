@@ -4,6 +4,7 @@
 - Метод overloading
 - Статични и инстанционни методи
 - Създаване на нови класове съдържащи статични методи
+- ключовата дума continue
 
 ## $задачи за упражнения
 - [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-06-2/cw)
