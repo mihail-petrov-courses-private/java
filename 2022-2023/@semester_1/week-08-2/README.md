@@ -8,7 +8,7 @@
 - [Домашна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-08-2/hw)
 
 ## $други ресурси
-<!-- - [видео](https://drive.google.com/file/d/1TYo0hdY4-HngsW7CBe2WcJF1DpX_d4uC/view?usp=sharing) -->
+- [видео](https://drive.google.com/file/d/16hz5g9OFPbqnjUMLGR2zGda1EEgcRi6B/view?usp=sharing)
 - [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-08-2/source)
 
 ## Работа с geter и setter
