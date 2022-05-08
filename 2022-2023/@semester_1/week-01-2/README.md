@@ -5,9 +5,6 @@
 - инсталация на InteliJ Idea
 - създаване на първата ни програма
 
-[![Everything Is AWESOME](http://i.imgur.com/Ot5DWAW.png)](https://www.youtube.com/watch?v=cs_74J_VotI&list=PLyZOguednhL5MWw4ov9bbS8QSWBgdFrXj&index=1 "Everything Is AWESOME")
-
-
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/1xg0215OxhnbvIO8UBnDZUxPGPj_C-ufC/view?usp=sharing)
 - [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-01-1/source)
