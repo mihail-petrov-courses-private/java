@@ -7,12 +7,12 @@
 - Въвеждане на данни от конзолата
 
 ## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-02-2/cw)
-- [Самостоятелна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-02-2/hw)
+- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-02-2/cw)
+- [Самостоятелна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-02-2/hw)
 
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/1tsznWVnF-Rh7dL2XeYiaz_hCaE7zI521/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-02-2/source)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-02-2/source)
 
 ### Работа с оператора (+)
 Математиката ни преследва и в света на програмирането. Оператора за събиране може да се ползва, за събиране на числови стойности. Неговата употреба се случва винаги в дясната част на оператора **за присвояване (=)**

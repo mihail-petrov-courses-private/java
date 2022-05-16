@@ -4,12 +4,12 @@
 - референтни типове
 
 ## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-10-2/cw)
-- [Домашна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-10-2/hw)
+- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-10-2/cw)
+- [Домашна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-10-2/hw)
 
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/1tdwjLW8KiWH2QoR5zGr5sT7-fsVlshuo/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-10-2/source)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-10-2/source)
 
 ## Подаване на параметри тип Object
 

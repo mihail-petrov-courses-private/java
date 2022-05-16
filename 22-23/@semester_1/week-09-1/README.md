@@ -4,12 +4,11 @@
 - пакети и импортиране на пакети
 - ключовата дума this
 ## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-09-1/cw)
-<!-- - [Домашна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-09-1/hw) -->
+- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-09-1/cw)
 
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/19lL2ur_ZadXTPJYBbKqgXPenXYLltcpb/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-09-1/source)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-09-1/source)
 
 ## Класове и обекти
 Нека да припомним - малко теория, която ще ни помогне в комуникацията от тук на сетне:

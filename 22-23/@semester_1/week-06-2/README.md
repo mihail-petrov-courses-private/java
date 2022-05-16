@@ -7,12 +7,12 @@
 - ключовата дума continue
 
 ## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-06-2/cw)
+- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-06-2/cw)
 
 
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/1aaZdCd3Uk_1wlH0mIpcYT9fock4Wn_mt/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-06-2/source)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-06-2/source)
 
 
 ## Предаване на параметри на методи

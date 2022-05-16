@@ -6,12 +6,12 @@
 - присвояване на стойности на променливи
 
 ## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-02-1/cw)
-- [Самостоятелна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-02-1/hw)
+- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-02-1/cw)
+- [Самостоятелна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-02-1/hw)
 
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/1uNte8X4dDSkpWCKb1n_J0j9ptTMlMWZt/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-02-1/source)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-02-1/source)
 
 ### Какво е променлива ?
 Променливата е контейнер за съхранение на информация. Представете си че разполагате с хале пълно с бидони в което трябва да съхранявате различни материали. Всеки материал трябва да бъде сложен в специален бидон, за да 

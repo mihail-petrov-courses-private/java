@@ -8,12 +8,12 @@
 - мъдри мисли и съвети свързани с писане на качествен код.
 
 ## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-1/cw)
-- [Самостоятелна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-1/hw)
+- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-03-1/cw)
+- [Самостоятелна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-03-1/hw)
 
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/1n1_e-wRgGYkJiTWs3Wa5nhzuVEVwBv3V/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-03-1/source)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-03-1/source)
 
 ### Типът данни **char**
 

@@ -4,11 +4,11 @@
 - глобални променливи
 
 ## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-05-1/cw)
+- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-05-1/cw)
 
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/1_FYLxGMMrSsElx1IZDZFmF7lBNEm9vcP/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-04-2/source)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-04-2/source)
 
 ## Цикли
 

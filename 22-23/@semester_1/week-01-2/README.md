@@ -7,7 +7,7 @@
 
 ## $други ресурси
 - [видео](https://drive.google.com/file/d/1xg0215OxhnbvIO8UBnDZUxPGPj_C-ufC/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/2022-2023/%40semester_1/week-01-1/source)
+- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-01-1/source)
 
 # Създаване на първата ни програма
 
