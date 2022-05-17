@@ -8,7 +8,7 @@
 - [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-11-1/cw)
 
 ## $други ресурси
-- [видео](https://drive.google.com/file/d/1tdwjLW8KiWH2QoR5zGr5sT7-fsVlshuo/view?usp=sharing)
+- [видео](https://drive.google.com/file/d/1bE47-I0drnlC3cv_5HWJY_Ydad5Jdd7j/view?usp=sharing)
 - [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-11-1/source)
 
 
