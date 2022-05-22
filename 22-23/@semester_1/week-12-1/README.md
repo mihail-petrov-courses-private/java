@@ -6,7 +6,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cHYjpKNb-g4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cHYjpKNb-g4/0.jpg)](https://www.youtube.com/watch?v=cHYjpKNb-g4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cHYjpKNb-g4/0.jpg)](https://www.youtube.com/watch?v=PbUAb0n4adU&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=4)
 
 
 ## $задачи за упражнения
