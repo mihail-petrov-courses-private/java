@@ -1,13 +1,13 @@
-# Въведение в Java
-
-## $какво разгледахме днес ?
+ # Среща 1 - Въведение в Java
+ #### 💡 - Какво разгледахме днес
 - инсталация на JDK
 - инсталация на InteliJ Idea
 - създаване на първата ни програма
 
-## $други ресурси
-- [видео](https://drive.google.com/file/d/1xg0215OxhnbvIO8UBnDZUxPGPj_C-ufC/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-01-1/source)
+ #### 📚 - Ресурси и материали
+ * [Видео от срещата](https://www.youtube.com/watch?v=cs_74J_VotI&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=1)
+ * [Сорс код от срещата](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-01-1/source)
+
 
 # Създаване на първата ни програма
 
