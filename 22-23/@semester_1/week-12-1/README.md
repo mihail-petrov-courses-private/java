@@ -1,17 +1,12 @@
-## $какво разгледахме днес ?
+ # Среща 21 - Многомерни масиви - част 2
+ #### 💡 - Какво разгледахме днес
 - Форматиране на низове с помоща на **printf**  
 - видимост на класове в пакети 
 - работа с методи от пакета Math
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cHYjpKNb-g4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ #### 📚 - Ресурси и материали
+ * [Видео от срещата](https://drive.google.com/file/d/1qzopryi37ILlOLjTD5gyBANLlaq2oquo/view?usp=sharing)
+ * [Сорс код от срещата](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-11-2/source)
 
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cHYjpKNb-g4/0.jpg)](https://www.youtube.com/watch?v=PbUAb0n4adU&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=4)
-
-
-## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-11-2/cw)
-
-## $други ресурси
-- [видео](https://drive.google.com/file/d/1qzopryi37ILlOLjTD5gyBANLlaq2oquo/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-11-2/source)
+ #### 🕹️ - Задачи за упражнения
+* [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-11-2/cw)
