@@ -1,9 +1,9 @@
-## $какво разгледахме днес ?
+# Среща 18 - Упражнения с класове и обекти
+ #### 💡 - Какво разгледахме днес
 - упражнение
+ #### 📚 - Ресурси и материали
+- [Видео от срещата](https://www.youtube.com/watch?v=TxEpaGoaslA&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=18)
+- [Сорс код от срещата](./source/)
 
-## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-10-1/cw)
-
-## $други ресурси
-- [видео](https://drive.google.com/file/d/1OexGhuoN7YLkQiNjN1aS_9198qiVcZXG/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-10-1/source)
+ #### 🕹️ - Задачи за упражнения
+- [Работа в час](./cw/README.md)

@@ -1,15 +1,15 @@
-## $какво разгледахме днес ?
+# Среща 19 - Референтни типове и команди
+ #### 💡 - Какво разгледахме днес
 - упражнение
 - подаване на параметри тип Object
 - референтни типове
+ #### 📚 - Ресурси и материали
+- [Видео от срещата](https://www.youtube.com/watch?v=2jOYo8kIQCg&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=19)
+- [Сорс код от срещата](./source/)
 
-## $задачи за упражнения
-- [Работа в час](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-10-2/cw)
-- [Домашна работа](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-10-2/hw)
-
-## $други ресурси
-- [видео](https://drive.google.com/file/d/1tdwjLW8KiWH2QoR5zGr5sT7-fsVlshuo/view?usp=sharing)
-- [сорс код](https://github.com/mihail-petrov/netit-webdev-java/tree/master/22-23/%40semester_1/week-10-2/source)
+ #### 🕹️ - Задачи за упражнения
+- [Работа в час](./cw/README.md)
+- [Домашна работа](./hw/README.md)
 
 ## Подаване на параметри тип Object
 
