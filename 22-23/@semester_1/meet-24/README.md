@@ -9,7 +9,7 @@
   - RUN time vs COMPILE time
 
  #### 📚 - Ресурси и материали
-- [Видео от срещата](https://www.youtube.com/watch?v=jprMIsucuEo&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=23)
+- [Видео от срещата](https://www.youtube.com/watch?v=MV9GH8S5kyA&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=24)
 - [Сорс код от срещата](./source/)
 
  #### 🕹️ - Задачи за упражнения
