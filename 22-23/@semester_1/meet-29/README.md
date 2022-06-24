@@ -14,7 +14,7 @@
 - [XAMPP пакет](https://www.apachefriends.org/)
 
  #### 📚 - Ресурси и материали
-<!-- - [Видео от срещата](https://www.youtube.com/watch?v=nbH47_Rt8zo&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=28) -->
+- [Видео от срещата](https://www.youtube.com/watch?v=yEX5EsmRB-8&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=29)
 - [Сорс код от срещата](./source/)
 
  #### 🕹️ - Задачи за упражнения
