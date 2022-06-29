@@ -11,7 +11,7 @@
 
 #### 🔗 - Линкове към софтуер
 - [JavaFx](https://openjfx.io/)
-- [XAMPP пакет](https://mvnrepository.com/)
+- [Maven Repository](https://mvnrepository.com/)
 
  #### 📚 - Ресурси и материали
 - [Видео от срещата](https://www.youtube.com/watch?v=PYKwUUEwjPg&list=PLyZOguednhL7C1GkRRIMZ7P5d6UQ0cT8D&index=30)
