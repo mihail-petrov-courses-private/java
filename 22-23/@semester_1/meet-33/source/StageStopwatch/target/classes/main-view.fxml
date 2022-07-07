@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:id="mainViewReference"
+            fx:controller="me.mihailpetrov.stagestopwatch.StopwatchController"
+            stylesheets="@style.css"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <HBox fx:id="labelBox">
+        <Label fx:id="timeFrame" text="00:00:00.000"/>
+    </HBox>
+
+    <HBox fx:id="buttonBox">
+        <Button onAction="#startTimer">Start</Button>
+        <Button onAction="#stopTimer">Stop</Button>
+        <Button onAction="#exportSubtitle">Export</Button>
+    </HBox>
+
+    <HBox fx:id="utilityButtonBox">
+        <Button onAction="#registerSectionTimerStart">Start section</Button>
+        <Button onAction="#registerSectionTimerStop">End section</Button>
+    </HBox>
+
+    <HBox fx:id="timestampBox">
+        <Label fx:id="timestampSection" />
+    </HBox>
+
+</VBox>

@@ -1,0 +1,16 @@
+#labelBox  {
+    -fx-padding: 10;
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-color: red;
+}
+
+#timeFrame {
+    -fx-text-fill: #ff0000;
+    -fx-font-size: 14
+}
+
+#buttonBox {
+    -fx-padding: 10;
+    -fx-spacing: 15;
+}
