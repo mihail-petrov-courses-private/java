@@ -1,0 +1,21 @@
+.form {
+    border  : solid #dedede 1px;
+    padding : 5px;
+    width   : 250px;
+}
+
+.input {
+    display         : block;
+    width           : 100%;
+    margin-bottom   : 15px;
+}
+.input-submit {
+    width           : 100%;
+    padding         : 10px;
+    text-transform  : uppercase;
+    font-weight     : bold;
+}
+
+#header {
+    border-bottom: solid #dedede 1px;
+}
